@@ -309,7 +309,7 @@ def idteman():
 	else:
 		return menu()
 def menu():
-	cetak("!h#######################\n|!m-----------------------|!bAuthor : Fajar Septianto |!kFacebook : Fajar Id | !mChannel : Fajar ID |!h#######################\n|!k.======================.\n|!h  AMBIL !mID!h DARI.....  !k|\n'======================'\n!k#!p1 !hDAFTAR TEMAN\n!k#!p2 !hANGGOTA GROUP\n!k#!p3 !mKELUAR...")
+	cetak("!h#######################\n|!m-----------------------\n|!bAuthor : Fajar Septianto\n|!kFacebook : Fajar Id\n|!mChannel : Fajar ID \n!h#######################\n|!k.======================.\n|!h  AMBIL !mID!h DARI.....  !k|\n'======================'\n!k#!p1 !hDAFTAR TEMAN\n!k#!p2 !hANGGOTA GROUP\n!k#!p3 !mKELUAR...")
 	i = inputM('[?] PILIH',[1,2,3])
 	if i == 2:
 		lanjutG()
